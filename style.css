@@ -1,0 +1,35 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+padding: 10px;
+}
+.boite{
+    background-color: lightslategray;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    /* margin: 10px 10px 10px 10px; */
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+@media screen and (min-width: 960px) {
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 960px) {
+    .boite{
+display: block;
+width: 100%;
+
+
+    }
+}
