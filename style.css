@@ -29,7 +29,8 @@ padding: 10px;
     .boite{
 display: block;
 width: 100%;
-
-
+    }
+    .boite:nth-of-type(even) {
+        background-color: #fff;
     }
 }
